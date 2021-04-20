@@ -1,4 +1,4 @@
-# Infinity BOTs <https://t.me/Infinity_BOTs>
+# GOOD BOYS <https://t.me/GB031099>
 
 import logging
 from pyrogram import Client
@@ -10,4 +10,4 @@ logging.basicConfig(
 
 LOGGER = logging.getLogger(__name__)
 
-Jebot = Client("JESongBot", bot_token=BOT_TOKEN, api_hash=API_HASH, api_id=API_ID)
+Jebot = Client("ɢʙ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ", bot_token=BOT_TOKEN, api_hash=API_HASH, api_id=API_ID)
