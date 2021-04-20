@@ -1,19 +1,19 @@
-# Infinity BOTs <https://t.me/Infinity_BOTs>
-# @ImJanindu
+# Infinity BOTs <https://t.me/GB_031099>
+# @GB_031099
 
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from JESongBot.plugins import *
+from ɢʙ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ.plugins import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from JESongBot import Jebot as app
-from JESongBot import LOGGER
+from ɢʙ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ import Jebot as app
+from ɢʙ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ import LOGGER
 
 pm_start_text = """
-Heya [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
+Heya [{}](tg://user?id={}), I'm ɢʙ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ🎵
 
 Do /help for know my commands
 
-A bot by @Infinity_BOTs
+A bot by @GB_031099
 """
 
 help_text = """
@@ -24,8 +24,7 @@ My commands👇
 - /deezer <song name>: download songs via Deezer
 - Send youtube url to my pm for download it on audio format
 
-A bot by @Infinity_BOTs
-"""
+A bot by @GB_031099
 
 @app.on_message(filters.command("start"))
 async def start(client, message):
@@ -37,10 +36,10 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Source", url="https://github.com/ImJanindu/JESongBot"
+                        text="Source", url="https://github.com/sshlte55/JESongBot"
                     ),
                     InlineKeyboardButton(
-                        text="Dev", url="https://t.me/ImJanindu"
+                        text="Dev", url="https://t.me/GB_031099"
                     )
                 ]
             ]
