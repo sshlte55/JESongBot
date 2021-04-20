@@ -1,4 +1,4 @@
-# Infinity BOTs <https://t.me/GB_031099>
+# GOOD BOYS <https://t.me/GB_031099>
 
 from os.path import dirname, basename, isfile, join
 import glob
