@@ -1,5 +1,5 @@
-# Infinity BOTs <https://t.me/Infinity_BOTs>
-# @ImJanindu
+# GOOD BOYS <https://t.me/GB_031099>
+# @GB_SongDownload
 
 import os
 
@@ -7,7 +7,7 @@ import requests
 import wget
 from pyrogram import filters
 
-from JESongBot import Jebot
+from ɢʙ sᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅ import Jebot
 
 def get_arg(message):
     msg = message.text
